@@ -1,25 +1,22 @@
 import React from "react";
 import Link from "gatsby-link";
+import styles from "../pages/navbar.module.css";
 
 const Navbar = () => (
-  <nav>
-    <div className="nav-wrapper">
-      <Link to={"/"} className="brand-logo">
-        <h1>Company Name</h1>
-      </Link>
-      <ul id="nav-mobile" className="right hide-on-med-and-down">
-        <li>
-          <Link to={"/about/"}>About</Link>
-        </li>
-        <li>
-          <Link to={"/services/"}>Services</Link>
-        </li>
-        <li>
-          <Link to={"/contact/"}>Contact</Link>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div className={styles.navbar}>
+    <Link to={"/"} className={styles.navLink}>
+      <h1>Company Name</h1>
+    </Link>
+    <Link to={"/about/"} className={styles.navLink}>
+      About
+    </Link>
+    <Link to={"/services/"} className={styles.navLink}>
+      Services
+    </Link>
+    <Link to={"/contact/"} className={styles.navLink}>
+      Contact
+    </Link>
+  </div>
 );
 
 export default Navbar;
