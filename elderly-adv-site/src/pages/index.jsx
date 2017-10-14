@@ -5,6 +5,6 @@ import styles from "./index.module.css";
 export default () => (
   <div className={styles.landing}>
     <Navbar />
-    <p>Welcome to my hoooouuuusssseee...</p>
+    <h1 className={styles.siteTitle}>Great Big Company Name</h1>
   </div>
 );

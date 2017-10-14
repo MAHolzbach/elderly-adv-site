@@ -4,18 +4,20 @@ import styles from "../pages/navbar.module.css";
 
 const Navbar = () => (
   <div className={styles.navbar}>
-    <Link to={"/"} className={styles.navLink}>
+    <Link to={"/"} className={styles.logo}>
       <h1>Company Name</h1>
     </Link>
-    <Link to={"/about/"} className={styles.navLink}>
-      About
-    </Link>
-    <Link to={"/services/"} className={styles.navLink}>
-      Services
-    </Link>
-    <Link to={"/contact/"} className={styles.navLink}>
-      Contact
-    </Link>
+    <div className={styles.navLinks}>
+      <Link to={"/about/"} className={styles.navLink}>
+        About
+      </Link>
+      <Link to={"/services/"} className={styles.navLink}>
+        Services
+      </Link>
+      <Link to={"/contact/"} className={styles.navLink}>
+        Contact
+      </Link>
+    </div>
   </div>
 );
 

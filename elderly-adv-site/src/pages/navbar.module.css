@@ -1,9 +1,35 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
-  background-color: #bdbdbd;
+  background-color: none;
+  height: 50px;
+}
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  margin-top: 7px;
+}
+.logo:hover {
+  text-decoration: none;
+}
+.navLinks {
+  display: flex;
+  flex-grow: 4;
+  height: inherit;
+  justify-content: flex-end;
+}
+.navLink {
+  display: flex;
+  color: white;
+  height: inherit;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
 }
 .navLink:hover {
   text-decoration: none;
-  background-color: ;
+  border-bottom: 3px blue solid;
+  padding-top: 3px;
 }
