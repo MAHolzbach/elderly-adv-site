@@ -1,7 +1,6 @@
 .navbar {
   display: flex;
   background-color: none;
-  height: 50px;
 }
 .logo {
   display: flex;
