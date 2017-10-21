@@ -1,0 +1,26 @@
+.card {
+  margin: 10px;
+  background-color: #6072e7;
+  width: 33vw;
+  border: 1px solid black;
+}
+
+.title {
+  margin: 10px;
+  text-align: center;
+}
+
+.cardImage {
+  margin: 10px 0px 0px 10px;
+  height: 250px;
+  width: 325px;
+}
+
+.cardImage img {
+  border: 1px black solid;
+}
+
+.cardText {
+  color: black;
+  margin: 0px 10px 10px 10px;
+}

@@ -6,6 +6,10 @@
   overflow-x: hidden;
 }
 .cardDisplay {
-  display: inline;
-  border: red 1px solid;
+  display: flex;
+}
+.title {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }

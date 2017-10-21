@@ -1,23 +1,14 @@
 import React from "react";
 import Link from "gatsby-link";
-import styles from "../pages/servicecard.module.css";
-import folks1 from "../pages/folks1.jpg";
-import folks2 from "../pages/folks2.jpg";
-import folks3 from "../pages/folks3.jpg";
+import styles from "./servicecard.module.css";
 
-const folksArray = [folks1, folks2, folks3];
-
-const ServiceCard = () => (
-  <div>
-    {folksArray.map(pic => (
-      <div className="card">
-        {" "}
-        <div className="cardImage">
-          <img src={pic} />
-        </div>
-        <div className="cardText" />
-      </div>
-    ))}
+const ServiceCard = ({ serviceName, pic, description }) => (
+  <div className={styles.card}>
+    <h1 className={styles.title}>{serviceName}</h1>
+    <div className={styles.cardImage}>
+      <img src={pic} />
+    </div>
+    <div className={styles.cardText}>{description}</div>
   </div>
 );
 
