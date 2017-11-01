@@ -8,19 +8,19 @@ import folks3 from "../pages/folks3.jpg";
 
 const folksArray = [
   {
-    serviceName: "Financial",
+    name: "Financial",
     pic: folks1,
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis adipisci iste facere quo est earum in fuga error? Maxime, qui sapiente! Odio nostrum laborum ut."
   },
   {
-    serviceName: "Health",
+    name: "Health",
     pic: folks2,
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur atque odit reprehenderit, veritatis, provident nobis cum commodi, officia consequuntur hic doloremque iste deserunt ut asperiores."
   },
   {
-    serviceName: "Retirement",
+    name: "Retirement",
     pic: folks3,
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eos aperiam perspiciatis repellat? Commodi similique fugiat excepturi, magni voluptatum distinctio! Provident inventore corporis eius ducimus?"
@@ -34,7 +34,7 @@ export default () => (
     <div className={styles.cardDisplay}>
       {folksArray.map(service => (
         <ServiceCard
-          serviceName={service.serviceName}
+          serviceName={service.name}
           pic={service.pic}
           description={service.description}
         />

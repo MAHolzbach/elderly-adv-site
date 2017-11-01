@@ -3,7 +3,7 @@
     no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .siteTitle {
   display: flex;

@@ -1,0 +1,15 @@
+.aboutLanding {
+  background: url(https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.cardDisplay {
+  display: flex;
+}
+.title {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
