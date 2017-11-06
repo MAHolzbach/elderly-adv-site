@@ -27,7 +27,7 @@ const employeeArray = [
 
 export default () => (
   <div className={styles.aboutLanding}>
-    <Navbar />
+    <Navbar activeLink={"about"} />
     <h1 className={styles.title}>Who We Are</h1>
     <div className={styles.cardDisplay}>
       {employeeArray.map(employee => (

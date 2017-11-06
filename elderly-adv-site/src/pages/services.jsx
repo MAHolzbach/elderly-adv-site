@@ -29,7 +29,7 @@ const folksArray = [
 
 export default () => (
   <div className={styles.servicesLanding}>
-    <Navbar />
+    <Navbar activeLink={"services"} />
     <h1 className={styles.title}>What We Do</h1>
     <div className={styles.cardDisplay}>
       {folksArray.map(service => (

@@ -4,7 +4,7 @@ import styles from "./contact.module.css";
 
 export default () => (
   <div className={styles.contactLanding}>
-    <Navbar />
+    <Navbar activeLink={"contact"} />
     <h1 className={styles.title}>Reach Out</h1>
     <div className={styles.formDiv}>
       <form className={styles.contactForm}>
